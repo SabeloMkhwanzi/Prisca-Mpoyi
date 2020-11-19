@@ -1,0 +1,120 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imgs/hero.jpg) no-repeat center center fixed;
+  background-size:cover;
+  padding-bottom: 100px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+  
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #F7CEC8;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background:#34BECA;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: D6BDC1;
+  color: white;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+  color: white;
+}
+
+
+h1{
+  text-align: center;
+  color: #E3B813;
+  font-family: 'Dancing Script', cursive;
+  font-size:70px;
+  border-color:white;
+  margin-top:67%;
+  margin-bottom: 0%;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  color: #34BECA;
+  font-size: 45px;
+  border-color:white;
+  margin-top: 0%;
+  margin-bottom: 3%;
+  font-weight: 'Roboto', sans-serif;
+}
+
+h3{
+  text-align: center;
+  color: #ffffdd;
+  font-size: 20px;
+  border-color:white;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: normal;
+}
+
+.btn{
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  border:none;
+  color: #34BECA;
+  padding: 10px 47px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin:2px 3px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 5rem;
+  margin:0px; 
+}
+
+.container-btn{
+  display: flex;
+  justify-content: center;
+  
+}
+  

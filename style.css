@@ -11,7 +11,7 @@ body, html {
   height: auto;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imgs/hero.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hero.jpg) no-repeat center center fixed;
   background-size:cover;
   padding-bottom: 100px;
 }

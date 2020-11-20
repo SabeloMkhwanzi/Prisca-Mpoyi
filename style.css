@@ -11,7 +11,7 @@ body, html {
   height: auto;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hero.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imgs/hero.jpg) no-repeat center center fixed;
   background-size:cover;
   padding-bottom: 100px;
 }
@@ -67,12 +67,12 @@ body, html {
 h1{
   text-align: center;
   color: #E3B813;
-  font-family: 'Dancing Script', cursive;
-  font-size:70px;
+  font-family: 'Parisienne', cursive;
+  font-size:80px;
   border-color:white;
-  margin-top:67%;
+  margin-top:60%;
   margin-bottom: 0%;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 h2{
@@ -115,6 +115,32 @@ h3{
 .container-btn{
   display: flex;
   justify-content: center;
-  
 }
   
+/* About section */
+.container-about{
+  position: relative;
+  max-width: 100%;
+  margin: 3% auto;
+}
+
+.container-about .content {
+  position: relative;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  color:#34BECA;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-h3{
+  text-align: center;
+  color: rgb(239, 125, 49);
+  font-weight: lighter;
+  font-weight: bolder;
+}
+
+/* Audio section */
+.audio{
+  background-color:rgb(239, 125, 49) ;
+}

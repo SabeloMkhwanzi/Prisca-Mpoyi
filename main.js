@@ -83,3 +83,22 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// payfast
+
+function click_2730c2a92cfbf9f7666476682a947177( aform_reference ) {
+  var aform = aform_reference;
+  aform['amount'].value = Math.round( aform['amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
+  aform['custom_amount'].value = aform['custom_amount'].value.replace( /^\s+|\s+$/g,"" );
+  if( !aform['custom_amount'].value || 0 === aform['custom_amount'].value.length || /^\s*$/.test( aform['custom_amount'].value ) ) {
+      alert ( 'An amount is required' );
+      return false;
+  }
+  aform['amount'].value = Math.round( aform['custom_amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
+              aform['custom_quantity'].value = aform['custom_quantity'].value.replace( /^\s+|\s+$/g,"" );
+              if( !aform['custom_quantity'].value || 0 === aform['custom_quantity'].value.length || /^\s*$/.test( aform['custom_quantity'].value ) ) {
+                  alert ( 'A quantity is required' );
+                  return false;
+              }aform['amount'].value *=  parseInt( aform['custom_quantity'].value );
+}
+
